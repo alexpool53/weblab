@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+        <title>Tips & Tricks: How to create animated tooltips with CSS3</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="description" content="Tips & Tricks: How to create animated tooltips with CSS3" />
+        <meta name="keywords" content="tooltips, css3, hover, pseudo-element, pseudo-class, animated, transition" />
+        <meta name="author" content="Codrops" />
+        <link rel="shortcut icon" href="../favicon.ico"> 
+        <link rel="stylesheet" type="text/css" href="social/css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="social/css/style.css" />
+		<link href='http://fonts.googleapis.com/css?family=Alegreya+SC:700,400italic' rel='stylesheet' type='text/css' />
+		<meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+        <title>webla5</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="description" content="Animated Swatch Book with CSS3 and jQuery" />
+        <meta name="keywords" content="swatch book, css3, jquery, animated, rotation, transition, folding fan" />
+        <meta name="author" content="Codrops" />
+        <link rel="shortcut icon" href="../favicon.ico"> 
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/style3.css" />
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300,300italic' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src="js/modernizr.custom.79639.js"></script> 
+		
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>App Showcase with Grid Overlay</title>
+		<meta name="description" content="App Showcase with Grid Overlay" />
+		<meta name="keywords" content="app, showcase, css transitions, perspective, 3d, grid, overlay, css3, jquery" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico"> 
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
+		<!--[if lte IE 8]><style>.main{display:none;} .support-note .note-ie{display:block;}</style><![endif]-->
+    </head>
+    <body>
+        <div class="container">
+		
+		
+			
+			<header class="clearfix">
+				<div class="inner">
+					<h1>WEBLAB5<span2>All Digital Design in just one place</span2></h1>
+					
+				</div>
+			</header>
+					<div class="container">
+			
+			
+			<ul class="tt-wrapper">
+				<li><a class="tt-gplus" href="#"><span>Google Plus</span></a></li>
+				<li><a class="tt-twitter" href="#"><span>Twitter</span></a></li>
+				<li><a class="tt-dribbble" href="#"><span>Dribbble</span></a></li>
+				<li><a class="tt-facebook" href="#"><span>Facebook</span></a></li>
+				<li><a class="tt-linkedin" href="#"><span>LinkedIn</span></a></li>
+				<li><a class="tt-forrst" href="#"><span>Forrst</span></a></li>
+			</ul>
+        </div>
+			
+			
+			<section class="main">
+			
+			
+				<div id="sb-container" class="sb-container">
+				
+					<div>
+						<span class="sb-icon icon-cog"></span>
+						<h4><span>All Settings</span></h4>
+					</div>
+	
+					<div>
+						<span class="sb-icon icon-eye"></span>
+						<h4><span>Browse All</span></h4>
+					</div>	
+					<div>
+						<span class="sb-icon icon-install"></span>
+						<h4><span>Install App</span></h4>
+					</div>	
+					<div>
+						<span class="sb-icon icon-bag"></span>
+						<h4><span>Productivity</span></h4>
+					</div>
+					
+					<div>
+						<span class="sb-icon icon-globe"></span>
+						<h4><span>All Options</span></h4>
+					</div>	
+					<div>
+						<span class="sb-icon icon-picture"></span>
+						<h4><span>Web Design</span></h4>											
+					</div>	
+					<div>
+						<span class="sb-icon icon-video"></span>
+						<h4><span>User Videos</span></h4>											
+					</div>	
+					<div>
+						<span class="sb-icon icon-download"></span>
+						<h4><span>Download App</span></h4>											
+					</div>	
+					<div>
+						
+						<a href="http://localhost/weblab5/apps/"><span class="sb-icon icon-mobile"></span></a>
+						<h4><span>Mobile Apps</span></h4>
+						<h7>Make your bussines</br>popular </h7>
+					</div>
+					<div>
+						<span class="sb-icon icon-camera"></span>
+						<h4><span>Photography</span></h4>
+						<h7>Profecional Photography</br>for your bussines</h7>
+						
+					</div>
+					
+					<div>
+						<h4><span>Services</span></h4>
+						<span class="sb-toggle">Click to open/close</span>
+						<h5><span>weblab5</span></h5>											
+					</div>
+					
+					
+					
+				</div><!-- sb-container -->
+				
+							
+			</div>
+				
+			</section>
+			
+			
+			
+        </div>
+
+	
+		
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.swatchbook.js"></script>
+		<script type="text/javascript">
+			$(function() {
+			
+				$( '#sb-container' ).swatchbook( {
+					// number of degrees that is between each item
+					angleInc : 32,
+					neighbor : 10,
+					// if it should be closed by default
+					initclosed : false,
+					// index of the element that when clicked, triggers the open/close function
+					// by default there is no such element
+					closeIdx : 10
+				} );
+			
+			});
+		</script>
+    </body>
+</html>
